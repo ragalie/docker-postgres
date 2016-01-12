@@ -44,7 +44,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
   postgresql-contrib-$VERSION \
   postgresql-server-dev-$VERSION \
   postgresql-plpython-$VERSION \
-  postgresql-$VERSION-plv8 \
+# postgresql-$VERSION-plv8 \
 # Install WAL-E dependencies
   libxml2-dev \
   libxslt1-dev \
